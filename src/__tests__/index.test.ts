@@ -1,5 +1,5 @@
-const request = require("supertest");
-const app = "http://localhost:3000";
+import request from 'supertest';
+import { app } from '../index';
 
 describe("E-to-E-1", () => {
   beforeAll(async () => {
@@ -1163,3 +1163,4 @@ describe("E-to-E-5", () => {
     });
   });
 });
+
